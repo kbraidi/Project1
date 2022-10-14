@@ -1,0 +1,13 @@
+@media (min-width: 600px) {
+	}
+	body {
+    background-color: #0B3751;
+    flex-direction: row;
+	}	
+
+@media (min-width: 1000px) {
+	body {
+    background-color: #ff5344;
+    flex-direction: row;
+	}
+}
