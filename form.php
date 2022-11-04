@@ -6,5 +6,5 @@ header('Content-type: application/pdf');
 header('Content-Disposition: attachment; filename="SinkGear.pdf"');
 
 // Original file name
-readfile('qr.pdf');
+readfile('https://kbraidi.github.io/Project1/qr.pdf');
 ?> 
