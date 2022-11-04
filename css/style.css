@@ -54,24 +54,11 @@ input {
   color:black;
 }
 
-.submit {
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.reset {
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-button {
-	font-size: 20px;
-	padding: 10px;
-  margin-bottom: 10px;
-	background: white;
-  display: inline-block;
+input[type=submit], input[type=reset] {
+  padding:5px 15px;
+  border:0 none;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
 }
 
 @media (min-width: 600px) {
