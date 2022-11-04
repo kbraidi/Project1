@@ -1,20 +1,32 @@
+/* Modular Scale Used: Major Third
+Base Size: 14px
+*/
+
+html {font-size: 87.5%;
+}
+
+h1, h2, h3, h4, h5 {
+  line-height: 1.3;
+}
+
 body {
 	background-color: #42B8AD;
 	font-family: "Roboto", "Lato", "Oswald";
 	padding:50px;
 	margin: 0;
 	color: #faf9fa;
+  line-height: 1.75;
 }
 
 h1 {
-	font-size: 45px;
 	font-weight: bold;
+  font-size: 3.052rem;
 }
 
 h2 {
 	text-transform: capitalize;
 	margin: auto;
-	font-size: 30px;
+	font-size: 2.441rem;
 }
 
 .header {
